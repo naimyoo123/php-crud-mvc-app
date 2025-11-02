@@ -15,22 +15,18 @@ A simple **PHP MVC CRUD application** to manage products. Built with **plain PHP
 ---
 
 ## Project Structure
+```
+app/
+├── Core/ # Core system files (Router, Database, Controller)
+├── Controllers/ # Application controllers
+├── Models/ # Database models
+└── Repositories/ # Database query logic
 
-modern-php-crud/
-├── app/
-│ ├── Core/ # Core system files (Router, Database, Controller)
-│ ├── Controllers/ # Application controllers
-│ ├── Models/ # Database models
-│ └── Repositories/ # Data access and query logic
-├── config/ # Configuration files (e.g., database.php)
-├── public/ # Public assets and entry point (index.php)
-│ └── assets/ # CSS, JS, images
-├── views/ # Application views and templates
-├── vendor/ # Composer dependencies (ignored in repo)
-└── .env.example # Sample environment configuration file
-
-undefined
-
+config/ # Configuration files (database.php)
+public/ # Public assets and entry point (index.php)
+views/ # Application views (HTML templates)
+vendor/ # Composer dependencies (ignored in repo)
+.env.example # Sample environment variables
 ---
 
 ## Requirements
