@@ -1,0 +1,17 @@
+{
+    "name": "naim/modern-php-crud",
+    "autoload": {
+        "psr-4": {
+            "Naim\\ModernPhpCrud\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Naim",
+            "email": "naim123nono@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
