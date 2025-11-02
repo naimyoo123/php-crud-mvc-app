@@ -27,7 +27,10 @@ public/ # Public assets and entry point (index.php)
 views/ # Application views (HTML templates)
 vendor/ # Composer dependencies (ignored in repo)
 .env.example # Sample environment variables
+```
+
 ---
+
 
 ## Requirements
 
